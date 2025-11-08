@@ -4,7 +4,8 @@ from datetime import datetime
 def add_expenses(Category, Amount, Note=""):
     with open('expenses.csv', 'a') as file:
         writer = csv.writer(file)
-        writer.writerow([datetime.now().strftime(f"%d-%m-%Y")], Category, Amount, Note)
+        # .writerow() takes only one argument
+        writer.writerow([datetime.now().strftime(f"%d-%m-%Y"), Category, Amount, Note])
 
 def view_expenses():
     with open('expenses.csv', 'r') as file:
@@ -12,3 +13,4 @@ def view_expenses():
         for row in reader:
             print(row)
 
+add_expenses('Food', 2000, "Hunger Problem Solved")
