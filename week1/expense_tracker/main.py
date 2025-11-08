@@ -27,7 +27,7 @@ while True:
             reader = csv.reader(file)
             for row in reader:
                 try:
-                    total += reader[2]
+                    total += float(row[2])
                 except (ValueError, IndexError):
                     continue
         print(f"Total Expenses: ₦{total}")  
