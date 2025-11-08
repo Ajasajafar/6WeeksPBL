@@ -14,3 +14,4 @@ def view_expenses():
             print(row)
 
 add_expenses('Food', 2000, "Hunger Problem Solved")
+view_expenses()
