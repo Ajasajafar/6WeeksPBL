@@ -10,20 +10,20 @@ while True:
 ''')
     reply = input()
     def add_expenses(Category, Amount, Note=""):
-        with open('expenses.csv', 'a') as file:
+        with open('C:\\6weeksPBL\\week1\\expense_tracker\\expenses.csv', 'a') as file:
             writer = csv.writer(file)
             # .writerow() takes only one argument
             writer.writerow([datetime.now().strftime(f"%d-%m-%Y"), Category, Amount, Note])
 
     def view_expenses():
-        with open('expenses.csv', 'r') as file:
+        with open('C:\\6weeksPBL\\week1\\expense_tracker\\expenses.csv', 'r') as file:
             reader = csv.reader(file)
             for row in reader:
                 print(row)
                 return row
     def total_expense():
         total = 0
-        with open('expenses.csv', 'r') as file:
+        with open('C:\\6weeksPBL\\week1\\expense_tracker\\expenses.csv', 'r') as file:
             reader = csv.reader(file)
             for row in reader:
                 try:
