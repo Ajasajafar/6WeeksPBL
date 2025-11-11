@@ -11,3 +11,9 @@ fileExtensions = {
     'WebFile' : ['.html','.css', 'php', '.xml']
 }
 
+source_folder = input()
+for filename in os.listdir(source_folder):
+    file_path = os.path.join(source_folder, filename)
+    if os.path.isdir(file_path):
+        continue
+    _, ext = os.path.splitext(filename)
