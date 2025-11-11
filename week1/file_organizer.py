@@ -16,4 +16,18 @@ for filename in os.listdir(source_folder):
     file_path = os.path.join(source_folder, filename)
     if os.path.isdir(file_path):
         continue
-    _, ext = os.path.splitext(filename)
+    root, ext = os.path.splitext(filename)
+moved = False
+for folder_name, extensions in fileExtensions.items():
+    if ext.lower() in extensions:
+        dest_folder = os.path.join(source_folder,folder_name)
+        os.makedirs(dest_folder, exist_ok=True)
+        shutil.move(file_path, os.path.join(dest_folder, filename))
+        print(f"Moved: {filename} to {folder_name}")
+        moved = True
+        break
+    if not moved:
+        other_folder = os.path.join(source_folder, 'Others')
+        os.makedirs(other_folder, exist_ok=True)
+        shutil.move(file_path, os.path.join(other_folder, filename))
+        print(f"Moved: {filename} to Others")
