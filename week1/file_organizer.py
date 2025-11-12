@@ -31,4 +31,4 @@ for folder_name, extensions in fileExtensions.items():
         os.makedirs(other_folder, exist_ok=True)
         shutil.move(file_path, os.path.join(other_folder, filename))
         print(f"Moved: {filename} to Others")
-print(f"File Organisation complete!")
+print(f"File Organisation complete!") 
