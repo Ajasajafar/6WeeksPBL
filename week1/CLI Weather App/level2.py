@@ -67,3 +67,5 @@ def main():
             show_weather(cityName, info )
         else:
             print("Could not fetch weather, Check city name or network.")
+
+main()
