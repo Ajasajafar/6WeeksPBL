@@ -49,3 +49,21 @@ def show_weather(city, info):
     print(f"Desc: {info['description']}")
     print(f'wind: {info['wind']} m/s')
     print("==========================")
+
+def main():
+    print("Welcome To Level 2 Weather App")
+
+    while True:
+        cityName =input('Enter city name')
+
+        if cityName.lower() == "exit":
+            print('Goodbye!')
+            break
+
+        data = get_weather(cityName)
+        info = parse_weather(data)
+
+        if info:
+            show_weather(cityName, info )
+        else:
+            print("Could not fetch weather, Check city name or network.")
