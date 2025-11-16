@@ -40,3 +40,12 @@ def parse_weather(data):
         }
     except KeyError:
         return None
+    
+def show_weather(city, info):
+    print('\n=====WEATHER REPORT=====')
+    print(f'City: {city.title()}')
+    print(f'Temperature: {info["temp"]}°C')
+    print(f"Humidity: {info['humidity']} %")
+    print(f"Desc: {info['description']}")
+    print(f'wind: {info['wind']} m/s')
+    print("==========================")
