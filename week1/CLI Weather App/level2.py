@@ -20,3 +20,23 @@ def get_weather(cityName, api_key):
     except Exception as e:
         return {"error": f"Unexpected error occurred: {e}"}
     return data
+
+def parse_weather(data):
+    if data is None:
+        return None
+    if data.get("cod") != 200:
+        return None
+    try:
+        temp = data["main"]["temp"]
+        humidity = data["main"]["description"]
+        description = data["weather"][0]["description"]
+        wind = data["wind"]["speed"]
+
+        return {
+            "temp" : temp,
+            "humidity" : humidity,
+            "description" : description,
+            "wind" : wind
+        }
+    except KeyError:
+        return None
