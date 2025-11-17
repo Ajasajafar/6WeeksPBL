@@ -1,4 +1,4 @@
-from weather_utils import get_valid_city, extract_weather_details, display_weather
+from weather_utils import get_valid_city, extract_weather_details, display_weather, save_weather_file
 from weather_api import get_weather_data
 
 def main():
@@ -27,5 +27,6 @@ def main():
             display_weather(weather)
         else:
             print("❗ Unexpected API format received.")
+        save_weather_file(weather)
 if __name__ == "__main__":
         main()    

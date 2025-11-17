@@ -50,13 +50,13 @@ def display_weather(weather):
     print(f"Wind Speed: {weather['wind_speed']} m/s")
 
 def save_weather_file(weather):
-    with open('weather_log.txt', 'a') as file:
-        file.write(
-            f"City: {weather['city']}",
-            f"Temperature: {weather['temp']}°C / {temp_f}°F",
-            f"Condition: {weather['condition']}",
-            f"Description: {weather['description']}",
-            f"Humidity: {weather['humidity']}%",
-            print(f"Wind Speed: {weather['wind_speed']} m/s")
-        )
+    with open('C:\\6weeksPBL\\Stage1\\CLI Weather App\\level2_weather_app\\weather_log.txt', 'a') as file:
+        file.write(f"City: {weather['city']}")
+        file.write(f"\nHumidity: {weather['humidity']}%")  
+        file.write(f"\nTemperature: {weather['temp']}°C / {temp_f}°F")    
+        file.write(f"\nCondition: {weather['condition']}")    
+        file.write(f"\nDescription: {weather['description']}")    
+        file.write(f"\nWind Speed: {weather['wind_speed']} m/s\n\n\n")    
+           
+        
 

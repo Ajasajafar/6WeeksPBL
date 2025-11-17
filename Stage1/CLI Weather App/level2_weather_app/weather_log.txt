@@ -1,0 +1,39 @@
+City: YabaHumidity: 23%Temperature: 22.45°C / 72.41°FCondition: ClearDescription: clear skyWind Speed: 3.84 m/sCity: Ibadan
+Humidity: 90%
+Temperature: 22.96°C / 73.33°F
+Condition: Clouds
+Description: scattered clouds
+Wind Speed: 1.21 m/sCity: Ibadan
+Humidity: 90%
+Temperature: 22.96°C / 73.33°F
+Condition: Clouds
+Description: scattered clouds
+Wind Speed: 1.21 m/sCity: Orlando
+Humidity: 64%
+Temperature: 23.32°C / 73.98°F
+Condition: Clouds
+Description: scattered clouds
+Wind Speed: 2.57 m/sCity: Yaba
+Humidity: 21%
+Temperature: 25.05°C / 77.09°F
+Condition: Clear
+Description: clear sky
+Wind Speed: 4.11 m/s
+
+
+City: Yaba
+Humidity: 21%
+Temperature: 25.05°C / 77.09°F
+Condition: Clear
+Description: clear sky
+Wind Speed: 4.11 m/s
+
+
+City: London
+Humidity: 86%
+Temperature: 2.93°C / 37.27°F
+Condition: Clouds
+Description: few clouds
+Wind Speed: 1.54 m/s
+
+
