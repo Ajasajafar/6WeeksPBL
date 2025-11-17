@@ -45,3 +45,18 @@ def get_valid_city():
             continue
 
         return city
+
+def extract_weather_details(data):
+    """Extracts and returns clean weather information."""
+    try:
+        weather = {
+            "city": data["name"],
+            "temp": data["main"]["temp"],
+            "condition": data["weather"][0]["main"],
+            "description": data["weather"][0]["description"],
+            "humidity": data["main"]["humidity"],
+            "wind_speed": data["wind"]["speed"]
+        }
+        return weather
+    except KeyError:
+        return None
