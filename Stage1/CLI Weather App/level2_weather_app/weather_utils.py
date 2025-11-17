@@ -39,6 +39,7 @@ def c_to_f(temp_c):
 
 def display_weather(weather):
     """Prints a clean formatted weather report."""
+    global temp_f
     temp_f = c_to_f(weather['temp'])
     print("\n--- WEATHER REPORT ---")
     print(f"City: {weather['city']}")
@@ -48,4 +49,14 @@ def display_weather(weather):
     print(f"Humidity: {weather['humidity']}%")
     print(f"Wind Speed: {weather['wind_speed']} m/s")
 
+def save_weather_file(weather):
+    with open('weather_log.txt', 'a') as file:
+        file.write(
+            f"City: {weather['city']}",
+            f"Temperature: {weather['temp']}°C / {temp_f}°F",
+            f"Condition: {weather['condition']}",
+            f"Description: {weather['description']}",
+            f"Humidity: {weather['humidity']}%",
+            print(f"Wind Speed: {weather['wind_speed']} m/s")
+        )
 
