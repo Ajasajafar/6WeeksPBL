@@ -24,3 +24,24 @@ def get_weather_data(city):
     except requests.exceptions.HTTPError:
         print("❗ Invalid API response or wrong city.")
         return None 
+
+def get_valid_city():
+    '''Asks the user for a city and validates the input.'''
+    while True:
+        city = input("\nEnter a city name(or 'exit' to quit)").strip()
+
+        #Exit Option
+        if city.lower() == "exit":
+            return None
+        
+        # Check for empty input
+        if not city:
+            print("❗ City name cannot be empty. Try again.")
+            continue
+
+        # Check for invalid characters (digits, symbols)
+        if not city.replace(" ", "").replace("-", "").isalpha():
+            print("❗ Invalid city name. Only letters, spaces, and hyphens allowed.")
+            continue
+
+        return city
