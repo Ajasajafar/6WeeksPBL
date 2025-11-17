@@ -48,14 +48,31 @@ def get_sun_times(data):
     except KeyError:
         return "N/A", "N/A"
     
+def get_weather_emoji(condition):
+    """Return emoji based on main weather condition"""
+    condition = condition.lower()
+    if "cloud" in condition:
+        return "☁️"
+    elif "rain" in condition:
+        return "🌧️"
+    elif "clear" in condition:
+        return "☀️"
+    elif "snow" in condition:
+        return "❄️"
+    elif "storm" in condition or "thunder" in condition:
+        return "⛈️"
+    else:
+        return "🌡️"
+
+
 def display_weather(weather, sunrise="N/A", sunset="N/A"):
     """Prints a clean formatted weather report."""
     global temp_f
     temp_f = c_to_f(weather['temp'])
-
+    emoji = get_weather_emoji(weather['condition'])
 
     print("\n--- WEATHER REPORT ---")
-    print(f"City: {weather['city']}")
+    print(f"City: {weather['city']} {emoji}")
     print(f"Temperature: {weather['temp']}°C / {temp_f}°F")
     print(f"Condition: {weather['condition']}")
     print(f"Description: {weather['description']}")

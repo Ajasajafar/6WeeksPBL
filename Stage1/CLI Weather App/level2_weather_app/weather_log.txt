@@ -61,4 +61,84 @@ Description: few clouds
 Wind Speed: 1.08 m/s
 
 
-Sunrise: 06:25 | Sunset: 18:10
+Sunrise: 06:25 | Sunset: 18:10City: Italy
+Humidity: 63%
+Temperature: 27.26°C / 81.07°F
+Condition: Clear
+Description: clear sky
+Wind Speed: 4.92 m/s
+
+
+Sunrise: 13:58 | Sunset: 00:26City: Belgium
+Humidity: 58%
+Temperature: 1.88°C / 35.38°F
+Condition: Clouds
+Description: broken clouds
+Wind Speed: 1.11 m/s
+
+
+Sunrise: 13:48 | Sunset: 23:25City: Nigeria
+Humidity: 35%
+Temperature: 19.37°C / 66.87°F
+Condition: Clouds
+Description: few clouds
+Wind Speed: 2.59 m/s
+
+
+Sunrise: 06:23 | Sunset: 18:02City: United Kingdom
+Humidity: 83%
+Temperature: 0.75°C / 33.35°F
+Condition: Clouds
+Description: broken clouds
+Wind Speed: 1.33 m/s
+
+
+Sunrise: 08:45 | Sunset: 17:05City: United States of America
+Humidity: 54%
+Temperature: 15.4°C / 59.72°F
+Condition: Clear
+Description: clear sky
+Wind Speed: 6.98 m/s
+
+
+Sunrise: 14:21 | Sunset: 00:17City: America
+Humidity: 37%
+Temperature: 30.21°C / 86.38°F
+Condition: Clear
+Description: clear sky
+Wind Speed: 5.15 m/s
+
+
+Sunrise: 14:42 | Sunset: 01:27City: New York
+Humidity: 42%
+Temperature: 5.51°C / 41.92°F
+Condition: Clear
+Description: clear sky
+Wind Speed: 7.72 m/s
+
+
+Sunrise: 12:45 | Sunset: 22:36City: Ottawa
+Humidity: 73%
+Temperature: -0.72°C / 30.7°F
+Condition: Clouds
+Description: overcast clouds
+Wind Speed: 8.23 m/s
+
+
+Sunrise: 13:04 | Sunset: 22:31City: Scottland
+Humidity: 38%
+Temperature: 7.77°C / 45.99°F
+Condition: Clear
+Description: clear sky
+Wind Speed: 0 m/s
+
+
+Sunrise: 13:37 | Sunset: 23:33City: Ireland
+Humidity: 86%
+Temperature: 1.83°C / 35.29°F
+Condition: Clouds
+Description: broken clouds
+Wind Speed: 2.24 m/s
+
+
+Sunrise: 08:59 | Sunset: 17:34
