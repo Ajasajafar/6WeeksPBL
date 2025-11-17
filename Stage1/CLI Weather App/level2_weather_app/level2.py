@@ -14,7 +14,8 @@ def get_weather_data(city):
     try:
         response = requests.get(base_url, params=params, timeout=10)
         response.raise_for_status()
-        return response.json()
+        data = response.json()
+        return data
     except requests.exceptions.Timeout:
         print("⏳ Request timed out.")
         return None
