@@ -34,12 +34,18 @@ def extract_weather_details(data):
     except KeyError:
         return None
     
+def c_to_f(temp_c):
+    return round((temp_c * 9/5) + 32, 2)
+
 def display_weather(weather):
     """Prints a clean formatted weather report."""
+    temp_f = c_to_f(weather['temp'])
     print("\n--- WEATHER REPORT ---")
     print(f"City: {weather['city']}")
-    print(f"Temperature: {weather['temp']}°C")
+    print(f"Temperature: {weather['temp']}°C / {temp_f}°F")
     print(f"Condition: {weather['condition']}")
     print(f"Description: {weather['description']}")
     print(f"Humidity: {weather['humidity']}%")
     print(f"Wind Speed: {weather['wind_speed']} m/s")
+
+
