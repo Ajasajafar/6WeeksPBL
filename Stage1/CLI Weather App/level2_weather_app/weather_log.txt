@@ -37,3 +37,28 @@ Description: few clouds
 Wind Speed: 1.54 m/s
 
 
+City: Oshodi
+Humidity: 83%
+Temperature: 27.03°C / 80.65°F
+Condition: Clouds
+Description: few clouds
+Wind Speed: 1.03 m/s
+
+
+City: Isolo
+Humidity: 83%
+Temperature: 27.07°C / 80.73°F
+Condition: Clouds
+Description: few clouds
+Wind Speed: 1.03 m/s
+
+
+City: Lokoja
+Humidity: 42%
+Temperature: 25.48°C / 77.86°F
+Condition: Clouds
+Description: few clouds
+Wind Speed: 1.08 m/s
+
+
+Sunrise: 06:25 | Sunset: 18:10

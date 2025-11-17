@@ -1,4 +1,4 @@
-from weather_utils import get_valid_city, extract_weather_details, display_weather, save_weather_file
+from weather_utils import get_valid_city, extract_weather_details, display_weather, save_weather_file, get_sun_times
 from weather_api import get_weather_data
 
 def main():
@@ -22,9 +22,9 @@ def main():
             continue
 
         weather = extract_weather_details(data)
-
+        sunrise, sunset = get_sun_times(data)
         if weather:
-            display_weather(weather)
+            display_weather(weather, sunrise, sunset)
         else:
             print("❗ Unexpected API format received.")
         save_weather_file(weather)

@@ -37,10 +37,23 @@ def extract_weather_details(data):
 def c_to_f(temp_c):
     return round((temp_c * 9/5) + 32, 2)
 
-def display_weather(weather):
+from datetime import datetime
+
+def get_sun_times(data):
+    global sunrise, sunset
+    try:
+        sunrise = datetime.fromtimestamp(data["sys"]["sunrise"]).strftime("%H:%M")
+        sunset = datetime.fromtimestamp(data["sys"]["sunset"]).strftime("%H:%M")
+        return sunrise, sunset
+    except KeyError:
+        return "N/A", "N/A"
+    
+def display_weather(weather, sunrise="N/A", sunset="N/A"):
     """Prints a clean formatted weather report."""
     global temp_f
     temp_f = c_to_f(weather['temp'])
+
+
     print("\n--- WEATHER REPORT ---")
     print(f"City: {weather['city']}")
     print(f"Temperature: {weather['temp']}°C / {temp_f}°F")
@@ -48,6 +61,8 @@ def display_weather(weather):
     print(f"Description: {weather['description']}")
     print(f"Humidity: {weather['humidity']}%")
     print(f"Wind Speed: {weather['wind_speed']} m/s")
+    print(f"Sunrise: {sunrise} | Sunset: {sunset}")
+
 
 def save_weather_file(weather):
     with open('C:\\6weeksPBL\\Stage1\\CLI Weather App\\level2_weather_app\\weather_log.txt', 'a') as file:
@@ -56,7 +71,5 @@ def save_weather_file(weather):
         file.write(f"\nTemperature: {weather['temp']}°C / {temp_f}°F")    
         file.write(f"\nCondition: {weather['condition']}")    
         file.write(f"\nDescription: {weather['description']}")    
-        file.write(f"\nWind Speed: {weather['wind_speed']} m/s\n\n\n")    
-           
-        
-
+        file.write(f"\nWind Speed: {weather['wind_speed']} m/s\n\n\n")
+        file.write(f"Sunrise: {sunrise} | Sunset: {sunset}")     
