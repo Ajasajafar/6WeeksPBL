@@ -61,3 +61,13 @@ def extract_weather_details(data):
         return weather
     except KeyError:
         return None
+    
+def display_weather(weather):
+    """Prints a clean formatted weather report."""
+    print("\n--- WEATHER REPORT ---")
+    print(f"City: {weather['city']}")
+    print(f"Temperature: {weather['temp']}°C")
+    print(f"Condition: {weather['condition']}")
+    print(f"Description: {weather['description']}")
+    print(f"Humidity: {weather['humidity']}%")
+    print(f"Wind Speed: {weather['wind_speed']} m/s")
