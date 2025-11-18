@@ -88,5 +88,5 @@ def save_weather_file(weather):
         file.write(f"\nTemperature: {weather['temp']}°C / {temp_f}°F")    
         file.write(f"\nCondition: {weather['condition']}")    
         file.write(f"\nDescription: {weather['description']}")    
-        file.write(f"\nWind Speed: {weather['wind_speed']} m/s\n\n\n")
-        file.write(f"Sunrise: {sunrise} | Sunset: {sunset}")     
+        file.write(f"\nWind Speed: {weather['wind_speed']} m/s")
+        file.write(f"Sunrise: {sunrise} | Sunset: {sunset}\n\n\n")     
