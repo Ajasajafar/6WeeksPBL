@@ -1,3 +1,4 @@
+import os
 def get_valid_city():
     '''Asks the user for a city and validates the input.'''
     while True:
@@ -79,6 +80,9 @@ def display_weather(weather, sunrise="N/A", sunset="N/A"):
     print(f"Humidity: {weather['humidity']}%")
     print(f"Wind Speed: {weather['wind_speed']} m/s")
     print(f"Sunrise: {sunrise} | Sunset: {sunset}")
+
+def clear_screen():
+    os.system("cls" if os.name == "nt" else "clear")
 
 
 def save_weather_file(weather):

@@ -30,3 +30,227 @@ Description: few clouds
 Wind Speed: 2.14 m/sSunrise: 06:37 | Sunset: 18:20
 
 
+City: Pako
+Humidity: 38%
+Temperature: 24.34°C / 75.81°F
+Condition: Clouds
+Description: scattered clouds
+Wind Speed: 0.48 m/sSunrise: 06:36 | Sunset: 18:16
+
+
+City: Yaba
+Humidity: 19%
+Temperature: 23.1°C / 73.58°F
+Condition: Clouds
+Description: few clouds
+Wind Speed: 3.01 m/sSunrise: 07:12 | Sunset: 18:42
+
+
+City: Ibadan
+Humidity: 95%
+Temperature: 22.46°C / 72.43°F
+Condition: Clouds
+Description: scattered clouds
+Wind Speed: 0.65 m/sSunrise: 06:37 | Sunset: 18:23
+
+
+City: Ilaro
+Humidity: 96%
+Temperature: 23.42°C / 74.16°F
+Condition: Clouds
+Description: overcast clouds
+Wind Speed: 0.93 m/sSunrise: 06:40 | Sunset: 18:27
+
+
+City: London
+Humidity: 79%
+Temperature: 0.26°C / 32.47°F
+Condition: Clouds
+Description: overcast clouds
+Wind Speed: 4.63 m/sSunrise: 08:27 | Sunset: 17:05
+
+
+City: Jerusalem
+Humidity: 48%
+Temperature: 16.51°C / 61.72°F
+Condition: Clear
+Description: clear sky
+Wind Speed: 0.45 m/sSunrise: 05:11 | Sunset: 15:37
+
+
+City: Ijesha
+Humidity: 96%
+Temperature: 23.41°C / 74.14°F
+Condition: Clouds
+Description: scattered clouds
+Wind Speed: 0.33 m/sSunrise: 06:37 | Sunset: 18:24
+
+
+City: Bariga
+Humidity: 94%
+Temperature: 27.16°C / 80.89°F
+Condition: Clouds
+Description: few clouds
+Wind Speed: 1.03 m/sSunrise: 06:38 | Sunset: 18:26
+
+
+City: Ogun
+Humidity: 49%
+Temperature: 23.54°C / 74.37°F
+Condition: Clouds
+Description: few clouds
+Wind Speed: 2.18 m/sSunrise: 06:37 | Sunset: 18:20
+
+
+City: Gabon
+Humidity: 98%
+Temperature: 20.62°C / 69.12°F
+Condition: Clouds
+Description: overcast clouds
+Wind Speed: 0.89 m/sSunrise: 05:53 | Sunset: 18:03
+
+
+City: Ibadan
+Humidity: 95%
+Temperature: 22.46°C / 72.43°F
+Condition: Clouds
+Description: scattered clouds
+Wind Speed: 0.65 m/sSunrise: 06:37 | Sunset: 18:23
+
+
+City: Lagos
+Humidity: 90%
+Temperature: 24.78°C / 76.6°F
+Condition: Clouds
+Description: broken clouds
+Wind Speed: 0.77 m/sSunrise: 06:36 | Sunset: 18:24
+
+
+City: London
+Humidity: 79%
+Temperature: 0.26°C / 32.47°F
+Condition: Clouds
+Description: overcast clouds
+Wind Speed: 4.63 m/sSunrise: 08:27 | Sunset: 17:05
+
+
+City: Lagos
+Humidity: 90%
+Temperature: 24.78°C / 76.6°F
+Condition: Clouds
+Description: broken clouds
+Wind Speed: 0.77 m/sSunrise: 06:36 | Sunset: 18:24
+
+
+City: Isolo
+Humidity: 94%
+Temperature: 26.07°C / 78.93°F
+Condition: Clouds
+Description: few clouds
+Wind Speed: 1.03 m/sSunrise: 06:38 | Sunset: 18:26
+
+
+City: Oyo
+Humidity: 91%
+Temperature: 22.47°C / 72.45°F
+Condition: Clouds
+Description: broken clouds
+Wind Speed: 1.21 m/sSunrise: 06:37 | Sunset: 18:22
+
+
+City: Lagos
+Humidity: 92%
+Temperature: 24.44°C / 75.99°F
+Condition: Clouds
+Description: scattered clouds
+Wind Speed: 0.97 m/sSunrise: 06:36 | Sunset: 18:24
+
+
+City: Ibadan
+Humidity: 94%
+Temperature: 25.94°C / 78.69°F
+Condition: Clouds
+Description: scattered clouds
+Wind Speed: 2.57 m/sSunrise: 06:37 | Sunset: 18:23
+
+
+City: Lagos
+Humidity: 92%
+Temperature: 24.44°C / 75.99°F
+Condition: Clouds
+Description: scattered clouds
+Wind Speed: 0.97 m/sSunrise: 06:36 | Sunset: 18:24
+
+
+City: Bariga
+Humidity: 94%
+Temperature: 26.16°C / 79.09°F
+Condition: Clouds
+Description: few clouds
+Wind Speed: 1.03 m/sSunrise: 06:38 | Sunset: 18:26
+
+
+City: Lagos
+Humidity: 92%
+Temperature: 24.44°C / 75.99°F
+Condition: Clouds
+Description: scattered clouds
+Wind Speed: 0.97 m/sSunrise: 06:36 | Sunset: 18:24
+
+
+City: Oyo
+Humidity: 91%
+Temperature: 22.47°C / 72.45°F
+Condition: Clouds
+Description: broken clouds
+Wind Speed: 1.21 m/sSunrise: 06:37 | Sunset: 18:22
+
+
+City: Ibadan
+Humidity: 94%
+Temperature: 25.94°C / 78.69°F
+Condition: Clouds
+Description: scattered clouds
+Wind Speed: 2.57 m/sSunrise: 06:37 | Sunset: 18:23
+
+
+City: Abeokuta
+Humidity: 95%
+Temperature: 23.31°C / 73.96°F
+Condition: Clouds
+Description: broken clouds
+Wind Speed: 1.05 m/sSunrise: 06:39 | Sunset: 18:25
+
+
+City: Oyo
+Humidity: 91%
+Temperature: 22.47°C / 72.45°F
+Condition: Clouds
+Description: broken clouds
+Wind Speed: 1.21 m/sSunrise: 06:37 | Sunset: 18:22
+
+
+City: Bariga
+Humidity: 94%
+Temperature: 26.16°C / 79.09°F
+Condition: Clouds
+Description: few clouds
+Wind Speed: 1.03 m/sSunrise: 06:38 | Sunset: 18:26
+
+
+City: Oshodi
+Humidity: 94%
+Temperature: 26.03°C / 78.85°F
+Condition: Clouds
+Description: few clouds
+Wind Speed: 1.03 m/sSunrise: 06:38 | Sunset: 18:26
+
+
+City: Jibowu
+Humidity: 94%
+Temperature: 25.84°C / 78.51°F
+Condition: Clouds
+Description: few clouds
+Wind Speed: 1.03 m/sSunrise: 06:38 | Sunset: 18:26
+
+

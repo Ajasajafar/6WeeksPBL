@@ -1,10 +1,11 @@
-from weather_utils import get_valid_city, extract_weather_details, display_weather, save_weather_file, get_sun_times
+from weather_utils import get_valid_city, extract_weather_details, display_weather, save_weather_file, get_sun_times, clear_screen
 from weather_api import get_weather_data
 
-def main():
-    print("🌦️ Welcome to the Level 3 Weather App!")
 
+def main():
+    clear_screen()
     while True:
+        print("🌦️ Welcome to the Level 3 Weather App!")
         city = get_valid_city()
         if city is None:
             print("\nGoodbye! 👋")
@@ -28,5 +29,12 @@ def main():
         else:
             print("❗ Unexpected API format received.")
         save_weather_file(weather)
+        choice = input("Check for another city? Y/N ")
+        if choice.lower() == 'y':
+             clear_screen()
+             continue
+        else:
+             break
+        
 if __name__ == "__main__":
         main()    
