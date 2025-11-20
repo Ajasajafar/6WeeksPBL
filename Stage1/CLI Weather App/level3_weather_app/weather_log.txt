@@ -1,0 +1,32 @@
+City: Ilaro
+Humidity: 96%
+Temperature: 23.42°C / 74.16°F
+Condition: Clouds
+Description: overcast clouds
+Wind Speed: 0.93 m/sSunrise: 06:40 | Sunset: 18:27
+
+
+City: Island
+Humidity: 93%
+Temperature: 6.93°C / 44.47°F
+Condition: Clouds
+Description: broken clouds
+Wind Speed: 0.45 m/sSunrise: 16:23 | Sunset: 01:28
+
+
+City: Mainland
+Humidity: 82%
+Temperature: 4.44°C / 39.99°F
+Condition: Clouds
+Description: overcast clouds
+Wind Speed: 0 m/sSunrise: 12:52 | Sunset: 22:41
+
+
+City: Akute
+Humidity: 53%
+Temperature: 23.18°C / 73.72°F
+Condition: Clouds
+Description: few clouds
+Wind Speed: 2.14 m/sSunrise: 06:37 | Sunset: 18:20
+
+
