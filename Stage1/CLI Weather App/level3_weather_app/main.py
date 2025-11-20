@@ -1,4 +1,4 @@
-from weather_utils import get_valid_city, extract_weather_details, display_weather, save_weather_file, get_sun_times, clear_screen
+from weather_utils import get_valid_city, extract_weather_details, display_weather, save_weather_file, get_sun_times, clear_screen, loading_animation
 from weather_api import get_weather_data
 
 
@@ -7,6 +7,7 @@ def main():
     while True:
         print("🌦️ Welcome to the Level 3 Weather App!")
         city = get_valid_city()
+        loading_animation()
         if city is None:
             print("\nGoodbye! 👋")
             break
@@ -31,6 +32,7 @@ def main():
         save_weather_file(weather)
         choice = input("Check for another city? Y/N ")
         if choice.lower() == 'y':
+             loading_animation()
              clear_screen()
              continue
         else:

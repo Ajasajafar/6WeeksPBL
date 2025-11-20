@@ -254,3 +254,147 @@ Description: few clouds
 Wind Speed: 1.03 m/sSunrise: 06:38 | Sunset: 18:26
 
 
+City: Lagos
+Humidity: 93%
+Temperature: 24.36°C / 75.85°F
+Condition: Clouds
+Description: scattered clouds
+Wind Speed: 0.78 m/sSunrise: 06:36 | Sunset: 18:24
+
+
+City: Lagos
+Humidity: 93%
+Temperature: 24.36°C / 75.85°F
+Condition: Clouds
+Description: scattered clouds
+Wind Speed: 0.78 m/sSunrise: 06:36 | Sunset: 18:24
+
+
+City: Kwara
+Humidity: 27%
+Temperature: 20.64°C / 69.15°F
+Condition: Clouds
+Description: few clouds
+Wind Speed: 3.27 m/sSunrise: 06:20 | Sunset: 17:53
+
+
+City: Innichen
+Humidity: 93%
+Temperature: -5°C / 23.0°F
+Condition: Clouds
+Description: overcast clouds
+Wind Speed: 1.54 m/sSunrise: 07:20 | Sunset: 16:32
+
+
+City: Oyo
+Humidity: 92%
+Temperature: 22.32°C / 72.18°F
+Condition: Clouds
+Description: scattered clouds
+Wind Speed: 1.4 m/sSunrise: 06:37 | Sunset: 18:22
+
+
+City: Idanre
+Humidity: 97%
+Temperature: 21.54°C / 70.77°F
+Condition: Clouds
+Description: broken clouds
+Wind Speed: 0.46 m/sSunrise: 06:32 | Sunset: 18:18
+
+
+City: New York
+Humidity: 63%
+Temperature: 5.3°C / 41.54°F
+Condition: Clear
+Description: clear sky
+Wind Speed: 4.92 m/sSunrise: 12:47 | Sunset: 22:35
+
+
+City: Orlando
+Humidity: 86%
+Temperature: 18.14°C / 64.65°F
+Condition: Clear
+Description: clear sky
+Wind Speed: 2.06 m/sSunrise: 12:51 | Sunset: 23:30
+
+
+City: America
+Humidity: 56%
+Temperature: 22.22°C / 72.0°F
+Condition: Clouds
+Description: overcast clouds
+Wind Speed: 1.36 m/sSunrise: 14:44 | Sunset: 01:27
+
+
+City: Roman
+Humidity: 98%
+Temperature: 3.51°C / 38.32°F
+Condition: Clouds
+Description: overcast clouds
+Wind Speed: 2.64 m/sSunrise: 06:22 | Sunset: 15:33
+
+
+City: Enugu
+Humidity: 94%
+Temperature: 22.4°C / 72.32°F
+Condition: Clouds
+Description: broken clouds
+Wind Speed: 1.63 m/sSunrise: 06:21 | Sunset: 18:10
+
+
+City: Lagos
+Humidity: 94%
+Temperature: 24.14°C / 75.45°F
+Condition: Clouds
+Description: scattered clouds
+Wind Speed: 1.03 m/sSunrise: 06:36 | Sunset: 18:24
+
+
+City: Abuja
+Humidity: 47%
+Temperature: 21.08°C / 69.94°F
+Condition: Clouds
+Description: scattered clouds
+Wind Speed: 0.59 m/sSunrise: 06:25 | Sunset: 18:06
+
+
+City: Abuja
+Humidity: 47%
+Temperature: 21.08°C / 69.94°F
+Condition: Clouds
+Description: scattered clouds
+Wind Speed: 0.59 m/sSunrise: 06:25 | Sunset: 18:06
+
+
+City: Abuja
+Humidity: 47%
+Temperature: 21.08°C / 69.94°F
+Condition: Clouds
+Description: scattered clouds
+Wind Speed: 0.59 m/sSunrise: 06:25 | Sunset: 18:06
+
+
+City: Aguda
+Humidity: 85%
+Temperature: 2.03°C / 35.65°F
+Condition: Clear
+Description: clear sky
+Wind Speed: 2.28 m/sSunrise: 08:24 | Sunset: 18:13
+
+
+City: Abeokuta
+Humidity: 96%
+Temperature: 23.16°C / 73.69°F
+Condition: Clouds
+Description: scattered clouds
+Wind Speed: 1.02 m/sSunrise: 06:39 | Sunset: 18:25
+
+
+City: Abuja
+Humidity: 47%
+Temperature: 21.08°C / 69.94°F
+Condition: Clouds
+Description: scattered clouds
+Wind Speed: 0.59 m/sSunrise: 06:25 | Sunset: 18:06
+
+

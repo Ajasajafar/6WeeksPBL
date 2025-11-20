@@ -1,8 +1,8 @@
-import os
+import os,time,sys
 def get_valid_city():
     '''Asks the user for a city and validates the input.'''
     while True:
-        city = input("\nEnter a city name(or 'exit' to quit)").strip()
+        city = input("\nEnter a city name(or 'exit' to quit)-->> ").strip()
 
         #Exit Option
         if city.lower() == "exit":
@@ -83,6 +83,21 @@ def display_weather(weather, sunrise="N/A", sunset="N/A"):
 
 def clear_screen():
     os.system("cls" if os.name == "nt" else "clear")
+
+def loading_animation():
+    print("Processing", end="", flush=True)
+    dots = ""
+
+    for _ in range(12):  # number of cycles
+        dots += "."
+        if len(dots) > 3:
+            dots = ""     # reset back to empty
+
+        # \r moves cursor back to the beginning of the line
+        print("\rProcessing" + dots + "   ", end="", flush=True)
+        time.sleep(0.1)
+
+    print()  # move to next line after loading
 
 
 def save_weather_file(weather):
