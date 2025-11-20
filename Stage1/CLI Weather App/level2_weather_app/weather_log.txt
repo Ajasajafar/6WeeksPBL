@@ -173,4 +173,59 @@ Description: few clouds
 Wind Speed: 1.54 m/s
 
 
-Sunrise: 06:37 | Sunset: 18:26
+Sunrise: 06:37 | Sunset: 18:26City: Abule Egba
+Humidity: 93%
+Temperature: 23.49°C / 74.28°F
+Condition: Clouds
+Description: scattered clouds
+Wind Speed: 0.7 m/sSunrise: 06:39 | Sunset: 18:27
+
+
+City: Osun
+Humidity: 86%
+Temperature: 20.24°C / 68.43°F
+Condition: Clouds
+Description: scattered clouds
+Wind Speed: 1.18 m/sSunrise: 06:32 | Sunset: 18:17
+
+
+City: Makoko
+Humidity: 89%
+Temperature: 26.18°C / 79.12°F
+Condition: Clouds
+Description: few clouds
+Wind Speed: 1.54 m/sSunrise: 06:37 | Sunset: 18:26
+
+
+City: Abeokuta
+Humidity: 91%
+Temperature: 23.16°C / 73.69°F
+Condition: Clouds
+Description: few clouds
+Wind Speed: 0.97 m/sSunrise: 06:38 | Sunset: 18:25
+
+
+City: Idanre
+Humidity: 95%
+Temperature: 20.92°C / 69.66°F
+Condition: Clouds
+Description: few clouds
+Wind Speed: 0.52 m/sSunrise: 06:31 | Sunset: 18:18
+
+
+City: Iwo
+Humidity: 95%
+Temperature: 21.68°C / 71.02°F
+Condition: Clouds
+Description: few clouds
+Wind Speed: 0.8 m/sSunrise: 06:35 | Sunset: 18:21
+
+
+City: Otun
+Humidity: 85%
+Temperature: 20.37°C / 68.67°F
+Condition: Clouds
+Description: scattered clouds
+Wind Speed: 1.19 m/sSunrise: 06:32 | Sunset: 18:17
+
+
