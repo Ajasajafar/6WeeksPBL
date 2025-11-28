@@ -1,4 +1,4 @@
-import os,time,sys
+import os,time,sys, json
 from colorama import init, Fore, Style
 init(autoreset=True)
 def get_valid_city():
@@ -111,3 +111,14 @@ def save_weather_file(weather):
         file.write(f"\nDescription: {weather['description']}")    
         file.write(f"\nWind Speed: {weather['wind_speed']} m/s")
         file.write(f"Sunrise: {sunrise} | Sunset: {sunset}\n\n\n")     
+
+def create_default_config():
+    default = {
+        "default_city" : "Abuja",
+        "unit" : "C",
+        "logging_enabled" : True,
+        "Show_sun_times" : True
+    }
+
+    with open("config.json", "w") as f:
+        json.dump(default, f, indent=4)
