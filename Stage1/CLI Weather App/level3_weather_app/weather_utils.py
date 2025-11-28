@@ -120,5 +120,12 @@ def create_default_config():
         "Show_sun_times" : True
     }
 
-    with open("config.json", "w") as f:
+    with open("C:\\6weeksPBL\\Stage1\\CLI Weather App\\level3_weather_app\\config.json", "w") as f:
         json.dump(default, f, indent=4)
+
+def load_config():
+    if not os.path.exists("C:\\6weeksPBL\\Stage1\\CLI Weather App\\level3_weather_app\\config.json"):
+        create_default_config()
+
+    with open("C:\\6weeksPBL\\Stage1\\CLI Weather App\\level3_weather_app\\config.json", "r") as f:
+        json.load(f)
