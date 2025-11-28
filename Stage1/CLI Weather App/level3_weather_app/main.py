@@ -1,15 +1,16 @@
 from weather_utils import get_valid_city, extract_weather_details, display_weather, save_weather_file, get_sun_times, clear_screen, loading_animation
 from weather_api import get_weather_data
+from colorama import init, Fore, Style
 
 
 def main():
     clear_screen()
     while True:
-        print("🌦️ Welcome to the Level 3 Weather App!")
+        print(Fore.YELLOW + "🌦️ Welcome to the Level 3 Weather App!")
         city = get_valid_city()
         loading_animation()
         if city is None:
-            print("\nGoodbye! 👋")
+            print(Fore.LIGHTBLACK_EX + "\nGoodbye! 👋")
             break
 
         data = get_weather_data(city)
@@ -30,7 +31,7 @@ def main():
         else:
             print("❗ Unexpected API format received.")
         save_weather_file(weather)
-        choice = input("Check for another city? Y/N ")
+        choice = input(Fore.YELLOW + "Check for another city? Y/N ")
         if choice.lower() == 'y':
              loading_animation()
              clear_screen()

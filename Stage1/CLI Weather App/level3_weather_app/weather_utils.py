@@ -1,8 +1,10 @@
 import os,time,sys
+from colorama import init, Fore, Style
+init(autoreset=True)
 def get_valid_city():
     '''Asks the user for a city and validates the input.'''
     while True:
-        city = input("\nEnter a city name(or 'exit' to quit)-->> ").strip()
+        city = input(Fore.LIGHTBLACK_EX + "\nEnter a city name(or 'exit' to quit)-->> ").strip()
 
         #Exit Option
         if city.lower() == "exit":
@@ -72,14 +74,14 @@ def display_weather(weather, sunrise="N/A", sunset="N/A"):
     temp_f = c_to_f(weather['temp'])
     emoji = get_weather_emoji(weather['condition'])
 
-    print("\n--- WEATHER REPORT ---")
-    print(f"City: {weather['city']} {emoji}")
-    print(f"Temperature: {weather['temp']}°C / {temp_f}°F")
-    print(f"Condition: {weather['condition']}")
-    print(f"Description: {weather['description']}")
-    print(f"Humidity: {weather['humidity']}%")
-    print(f"Wind Speed: {weather['wind_speed']} m/s")
-    print(f"Sunrise: {sunrise} | Sunset: {sunset}")
+    print(Style.BRIGHT + Fore.YELLOW + "\n--- WEATHER REPORT ---")
+    print(Fore.GREEN + f"City: {weather['city']} {emoji}")
+    print(Fore.CYAN + f"Temperature: {weather['temp']}°C / {temp_f}°F")
+    print(Fore.CYAN + f"Condition: {weather['condition']}")
+    print(Fore.CYAN + f"Description: {weather['description']}")
+    print(Fore.CYAN + f"Humidity: {weather['humidity']}%")
+    print(Fore.CYAN + f"Wind Speed: {weather['wind_speed']} m/s")
+    print(Fore.CYAN + f"Sunrise: {sunrise} | Sunset: {sunset}")
 
 def clear_screen():
     os.system("cls" if os.name == "nt" else "clear")
@@ -94,7 +96,7 @@ def loading_animation():
             dots = ""     # reset back to empty
 
         # \r moves cursor back to the beginning of the line
-        print("\rProcessing" + dots + "   ", end="", flush=True)
+        print(Fore.RED + "\rProcessing" + dots + "   ", end="", flush=True)
         time.sleep(0.1)
 
     print()  # move to next line after loading

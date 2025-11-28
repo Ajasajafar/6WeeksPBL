@@ -398,3 +398,155 @@ Description: scattered clouds
 Wind Speed: 0.59 m/sSunrise: 06:25 | Sunset: 18:06
 
 
+City: Abuja
+Humidity: 47%
+Temperature: 21.08°C / 69.94°F
+Condition: Clouds
+Description: scattered clouds
+Wind Speed: 0.59 m/sSunrise: 06:25 | Sunset: 18:06
+
+
+City: Abuja
+Humidity: 47%
+Temperature: 21.08°C / 69.94°F
+Condition: Clouds
+Description: scattered clouds
+Wind Speed: 0.59 m/sSunrise: 06:25 | Sunset: 18:06
+
+
+City: Abuja
+Humidity: 47%
+Temperature: 21.08°C / 69.94°F
+Condition: Clouds
+Description: scattered clouds
+Wind Speed: 0.59 m/sSunrise: 06:25 | Sunset: 18:06
+
+
+City: Bariga
+Humidity: 100%
+Temperature: 25.16°C / 77.29°F
+Condition: Clouds
+Description: few clouds
+Wind Speed: 1.03 m/sSunrise: 06:38 | Sunset: 18:26
+
+
+City: Innichen
+Humidity: 83%
+Temperature: -3.59°C / 25.54°F
+Condition: Clouds
+Description: overcast clouds
+Wind Speed: 2.08 m/sSunrise: 07:22 | Sunset: 16:31
+
+
+City: Nagasaki
+Humidity: 66%
+Temperature: 11.58°C / 52.84°F
+Condition: Clear
+Description: clear sky
+Wind Speed: 3.22 m/sSunrise: 22:56 | Sunset: 09:16
+
+
+City: Indianapolis
+Humidity: 88%
+Temperature: 9.62°C / 49.32°F
+Condition: Mist
+Description: mist
+Wind Speed: 3.6 m/sSunrise: 13:36 | Sunset: 23:25
+
+
+City: Iraq
+Humidity: 28%
+Temperature: 17.32°C / 63.18°F
+Condition: Clear
+Description: clear sky
+Wind Speed: 4.23 m/sSunrise: 04:40 | Sunset: 14:59
+
+
+City: Iran
+Humidity: 24%
+Temperature: 11.17°C / 52.11°F
+Condition: Clear
+Description: clear sky
+Wind Speed: 2.89 m/sSunrise: 04:02 | Sunset: 14:25
+
+
+City: Israel
+Humidity: 25%
+Temperature: 23.65°C / 74.57°F
+Condition: Clear
+Description: clear sky
+Wind Speed: 5.84 m/sSunrise: 05:14 | Sunset: 15:39
+
+
+City: Egypt
+Humidity: 86%
+Temperature: 8.65°C / 47.57°F
+Condition: Haze
+Description: haze
+Wind Speed: 4.12 m/sSunrise: 12:56 | Sunset: 22:40
+
+
+City: Singapore
+Humidity: 84%
+Temperature: 26.85°C / 80.33°F
+Condition: Rain
+Description: heavy intensity rain
+Wind Speed: 3.09 m/sSunrise: 23:51 | Sunset: 11:54
+
+
+City: Judah
+Humidity: 39%
+Temperature: 16.21°C / 61.18°F
+Condition: Clouds
+Description: scattered clouds
+Wind Speed: 4.54 m/sSunrise: 04:37 | Sunset: 14:51
+
+
+City: Osun
+Humidity: 84%
+Temperature: 23.07°C / 73.53°F
+Condition: Clouds
+Description: scattered clouds
+Wind Speed: 2.09 m/sSunrise: 06:36 | Sunset: 18:18
+
+
+City: Illinois
+Humidity: 65%
+Temperature: -1.12°C / 29.98°F
+Condition: Clear
+Description: clear sky
+Wind Speed: 2.06 m/sSunrise: 13:56 | Sunset: 23:33
+
+
+City: Alaska
+Humidity: 95%
+Temperature: -10.28°C / 13.5°F
+Condition: Clouds
+Description: overcast clouds
+Wind Speed: 1.85 m/sSunrise: 20:06 | Sunset: 01:29
+
+
+City: Los Angeles
+Humidity: 57%
+Temperature: 18.26°C / 64.87°F
+Condition: Clear
+Description: clear sky
+Wind Speed: 2.57 m/sSunrise: 15:37 | Sunset: 01:44
+
+
+City: Ireland
+Humidity: 72%
+Temperature: 7.61°C / 45.7°F
+Condition: Clouds
+Description: scattered clouds
+Wind Speed: 9.34 m/sSunrise: 09:18 | Sunset: 17:22
+
+
+City: Oshodi
+Humidity: 94%
+Temperature: 27.03°C / 80.65°F
+Condition: Clouds
+Description: few clouds
+Wind Speed: 1.03 m/sSunrise: 06:41 | Sunset: 18:28
+
+
