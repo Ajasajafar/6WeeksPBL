@@ -129,3 +129,7 @@ def load_config():
 
     with open("C:\\6weeksPBL\\Stage1\\CLI Weather App\\level3_weather_app\\config.json", "r") as f:
         json.load(f)
+
+def save_config(config):
+    with open("C:\\6weeksPBL\\Stage1\\CLI Weather App\\level3_weather_app\\config.json", "w") as f:
+        json.dump(config, f, indent=4)
