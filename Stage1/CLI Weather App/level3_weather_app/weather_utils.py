@@ -133,3 +133,30 @@ def load_config():
 def save_config(config):
     with open("C:\\6weeksPBL\\Stage1\\CLI Weather App\\level3_weather_app\\config.json", "w") as f:
         json.dump(config, f, indent=4)
+
+def settings():
+    config = load_config()
+
+    print("\n==== APP SETTING ====")
+    print("1. Change default city")
+    print("2. Change default unit")
+    print("3. Toggle logging")
+    print("4. Toggle Sunrise/Sunset info")
+    print("5. Exit settings")
+
+    choice = input("Enter a number....")
+    if choice == "1":
+        config['default_city'] = input("Enter a new default city...")
+    elif choice == "2":
+        unit = input("Enter default unit...")
+        if unit.upper() in ["C", "F"]:
+            config["unit"] = unit
+    elif choice == "3":
+        config["logging_enabled"] = not config["logging_enabled"]
+    elif choice == "4":
+        config["show_sun_times"] = not config["logging_enabled"]
+    
+    save_config(config)
+    print("Settings updated!")
+
+settings()
